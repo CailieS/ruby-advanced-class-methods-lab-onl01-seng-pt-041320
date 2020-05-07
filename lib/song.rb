@@ -27,4 +27,10 @@ class Song
     song.name = title
     song
   end
+  
+  def self.find_by_name(title)
+    song = self.find
+    song.name = title
+    song
+  end 
 end
