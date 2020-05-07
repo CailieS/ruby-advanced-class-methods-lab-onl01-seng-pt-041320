@@ -28,9 +28,9 @@ class Song
     song
   end
   
-  def self.find_by_name(title)
-    song = self.find
+   def self.create_by_name(title) #class constructor
+    song = self.create
     song.name = title
     song
-  end 
+  end
 end
