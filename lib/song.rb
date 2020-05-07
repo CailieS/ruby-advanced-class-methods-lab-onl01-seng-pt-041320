@@ -11,5 +11,5 @@ class Song
   end
 
   def create.self
-    
+    @@all
 end
